@@ -1,0 +1,2 @@
+Dependencies for Project 'start', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x00000000)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\STM32\keil\ARM\RV31\INC-I D:\STM32\keil\ARM\CMSIS\Include-I D:\STM32\keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_hd.lst --xref -o .\startup_stm32f10x_hd.o --depend .\startup_stm32f10x_hd.d)
