@@ -351,7 +351,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\user;..\core;..\stm32f10x_fwlib\inc</IncludePath>
+              <IncludePath>..\user;..\core;..\stm32f10x_fwlib\inc;..\hardware</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -541,6 +541,16 @@
               <FileName>stm32f10x_wwdg.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\stm32f10x_fwlib\src\stm32f10x_wwdg.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\led.c</FilePath>
             </File>
           </Files>
         </Group>
