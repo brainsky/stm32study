@@ -1,0 +1,132 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: kongde liang, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  D:\develope\electronic\mdk\keil_v5_core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      UL2CM3.DLL V1.155.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\stm32\stm32study\study1004\user\start.uvprojx
+Project File Date:  10/10/2019
+
+<h2>Output:</h2>
+Build target 'start'
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling main.c...
+..\hardware\led.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\system\sys.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\core\core_cm3.h(414): error:  #84: invalid combination of type specifiers
+      __O  uint8_t    u8;                       /*!< Offset:       ITM Stimulus Port 8-bit                   */
+..\core\core_cm3.h(414): warning:  #64-D: declaration does not declare anything
+      __O  uint8_t    u8;                       /*!< Offset:       ITM Stimulus Port 8-bit                   */
+..\core\core_cm3.h(415): error:  #84: invalid combination of type specifiers
+      __O  uint16_t   u16;                      /*!< Offset:       ITM Stimulus Port 16-bit                  */
+..\core\core_cm3.h(415): warning:  #64-D: declaration does not declare anything
+      __O  uint16_t   u16;                      /*!< Offset:       ITM Stimulus Port 16-bit                  */
+..\core\core_cm3.h(416): error:  #84: invalid combination of type specifiers
+      __O  uint32_t   u32;                      /*!< Offset:       ITM Stimulus Port 32-bit                  */
+..\core\core_cm3.h(416): warning:  #64-D: declaration does not declare anything
+      __O  uint32_t   u32;                      /*!< Offset:       ITM Stimulus Port 32-bit                  */
+..\core\core_cm3.h(417): error:  #618: struct or union declares no named members
+    }  PORT [32];                               /*!< Offset: 0x00  ITM Stimulus Port Registers               */
+..\core\core_cm3.h(1762): error:  #134: expected a field name
+      while (ITM->PORT[0].u32 == 0);
+..\core\core_cm3.h(1763): error:  #134: expected a field name
+      ITM->PORT[0].u8 = (uint8_t) ch;
+..\user\stm32f10x.h(503): error:  #84: invalid combination of type specifiers
+  typedef uint32_t  u32;
+..\user\stm32f10x.h(504): error:  #84: invalid combination of type specifiers
+  typedef uint16_t u16;
+..\user\stm32f10x.h(505): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  u8;
+main.c: 5 warnings, 9 errors
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling led.c...
+..\hardware\led.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\hardware\led.c(34): warning:  #1-D: last line of file ends without a newline
+  }
+..\hardware\led.c: 2 warnings, 0 errors
+compiling sys.c...
+..\system\sys.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\core\core_cm3.h(414): error:  #84: invalid combination of type specifiers
+      __O  uint8_t    u8;                       /*!< Offset:       ITM Stimulus Port 8-bit                   */
+..\core\core_cm3.h(414): warning:  #64-D: declaration does not declare anything
+      __O  uint8_t    u8;                       /*!< Offset:       ITM Stimulus Port 8-bit                   */
+..\core\core_cm3.h(415): error:  #84: invalid combination of type specifiers
+      __O  uint16_t   u16;                      /*!< Offset:       ITM Stimulus Port 16-bit                  */
+..\core\core_cm3.h(415): warning:  #64-D: declaration does not declare anything
+      __O  uint16_t   u16;                      /*!< Offset:       ITM Stimulus Port 16-bit                  */
+..\core\core_cm3.h(416): error:  #84: invalid combination of type specifiers
+      __O  uint32_t   u32;                      /*!< Offset:       ITM Stimulus Port 32-bit                  */
+..\core\core_cm3.h(416): warning:  #64-D: declaration does not declare anything
+      __O  uint32_t   u32;                      /*!< Offset:       ITM Stimulus Port 32-bit                  */
+..\core\core_cm3.h(417): error:  #618: struct or union declares no named members
+    }  PORT [32];                               /*!< Offset: 0x00  ITM Stimulus Port Registers               */
+..\core\core_cm3.h(1762): error:  #134: expected a field name
+      while (ITM->PORT[0].u32 == 0);
+..\core\core_cm3.h(1763): error:  #134: expected a field name
+      ITM->PORT[0].u8 = (uint8_t) ch;
+..\user\stm32f10x.h(503): error:  #84: invalid combination of type specifiers
+  typedef uint32_t  u32;
+..\user\stm32f10x.h(504): error:  #84: invalid combination of type specifiers
+  typedef uint16_t u16;
+..\user\stm32f10x.h(505): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  u8;
+..\system\sys.c(36): warning:  #1-D: last line of file ends without a newline
+  }
+..\system\sys.c: 5 warnings, 9 errors
+"..\obj\start.axf" - 18 Error(s), 12 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\stm32\stm32study\study1004\user\RTE
+  D:\develope\electronic\mdk\keil_v5_core\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>
