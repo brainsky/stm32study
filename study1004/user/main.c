@@ -10,7 +10,7 @@ int main()
 	
 	while(1){
 		
-		GPIO_SetBits(GPIOA, GPIO_Pin_8);
+		GPIO_ResetBits(GPIOA, GPIO_Pin_8);
 		
 		GPIO_ResetBits(GPIOD, GPIO_Pin_2);
 		
@@ -18,8 +18,10 @@ int main()
 		
 		GPIO_SetBits(GPIOD, GPIO_Pin_2);
 		
-		GPIO_ResetBits(GPIOA, GPIO_Pin_8);
+		GPIO_SetBits(GPIOA, GPIO_Pin_8);
 		
+		delay_ms(300);
 	}
 	
 }
+

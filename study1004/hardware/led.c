@@ -18,10 +18,10 @@ void LED_Init(void){
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
-	//设置PA8高电平
+	//设置PAD高电平
 	GPIO_SetBits(GPIOA, GPIO_Pin_8);
 	
-	//设置pin8脚
+	//设置pinD2脚
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
 	
 	GPIO_Init(GPIOD, &GPIO_InitStructure);
